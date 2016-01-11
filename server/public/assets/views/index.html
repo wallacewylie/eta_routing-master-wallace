@@ -10,13 +10,13 @@
 </head>
 <body>
 <div ng-controller="myCtrl">
-    {{data.name}}
+
 
     <form ng-submit="addName()">
         Cat User Name: <input type="text" ng-model="username" required/>
         <button type="submit">Submit</button>
     </form>
-
+    {{data.name}}
 </div>
 <div ng-controller="container">
 
